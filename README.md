@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Finosauras Mid-Internship Report
 
-## Getting Started
+An interactive, data-driven visualization of my first three months at Finosauras, showcasing projects, skills growth, and future goals.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Interactive 3D particle background with Three.js
+- Data visualizations created with D3.js:
+  - Time allocation donut chart
+  - Skills constellation chart
+  - Project timeline with interactive nodes
+  - Growth radar chart
+- Animated UI components with Framer Motion
+- Mobile-responsive design
+- Smooth scrolling navigation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 15.3 (App Router)
+- React 19
+- TypeScript
+- D3.js for data visualizations
+- Three.js for 3D background effects
+- Framer Motion for animations
+- Tailwind CSS 4 for styling
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Running the Project
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js 20+ and npm (or yarn/pnpm)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Deploy on Vercel
+### Building for Production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+2. Start the production server:
+   ```bash
+   npm run start
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+- `src/app/` - Next.js app pages, global styles, and layout
+- `src/components/` - React components for each visualization section
+- `public/icons/` - SVG icons for skill representation
+
+## Visualization Sections
+
+1. **Hero** - Animated 3D particle background
+2. **Time Allocation** - Donut chart showing how time was spent
+3. **Skills Constellation** - Interactive chart showing skill growth
+4. **Project Timeline** - Flowing timeline of completed and ongoing projects
+5. **Key Learnings** - Animated cards showing key competencies gained
+6. **Future Goals** - Radar chart and cards showing improvement areas and goals
+
+## Credits
+
+- Created as a mid-internship progress report for Finosauras
+- Visual design inspired by modern interactive dashboards
+- Icons from various open-source libraries
