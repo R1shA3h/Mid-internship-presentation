@@ -25,11 +25,19 @@ const ProjectTimeline = () => {
 
   const projects: Project[] = [
     {
+      id: 'learning',
+      name: 'Onboarding & Team Support',
+      period: 'Jan 2025',
+      description: 'Learning and helping team with small tasks under supervision of seniors. Built foundation skills and contributed to various smaller features across the platform.',
+      technologies: ['Node.js', 'Next.js', 'React', 'MongoDB'],
+      status: 'completed'
+    },
+    {
       id: 'scams',
       name: 'Scams in India Project',
       period: 'Feb - Mar 2025',
       description: 'Designed and developed the entire frontend and backend system from scratch. Created RESTful APIs with Node.js and built the visual frontend with Next.js.',
-      technologies: ['Next.js', 'Node.js', 'RESTful API', 'DigitalOcean'],
+      technologies: ['Next.js', 'Node.js', 'MongoDB', 'DigitalOcean'],
       link: 'https://www.finosauras.com/scams-in-india',
       status: 'completed'
     },
@@ -38,7 +46,7 @@ const ProjectTimeline = () => {
       name: 'Admin Dashboard & Pipeline',
       period: 'Mar 2025',
       description: 'Built internal dashboard for tracking investor pipeline metrics with data visualizations and performance optimizations.',
-      technologies: ['React', 'D3.js', 'Data Viz'],
+      technologies: ['Next.js', 'MongoDB'],
       link: 'https://admin-pipeline-dashboard-tawny.vercel.app',
       status: 'completed'
     },
@@ -56,7 +64,32 @@ const ProjectTimeline = () => {
       name: 'InsightIQ (Phyllo) API',
       period: 'Feb - Apr 2025',
       description: 'Integrated YouTube, Twitter, and Instagram data sources. Wrote logic for discovering channels and extracting post/video data.',
-      technologies: ['APIs', 'Data Integration', 'YouTube', 'Twitter'],
+      technologies: ['APIs', 'Data Integration', 'YouTube', 'Twitter', 'Instagram'],
+      status: 'completed'
+    },
+    {
+      id: 'twitter',
+      name: 'Tweet Extraction Bot',
+      period: 'Apr 2025',
+      description: 'Building an automation bot that extracts tweets when given a Twitter profile. Implementing efficient scraping strategies and data analysis.',
+      technologies: ['Python','Selenium', 'Scripting', 'Automation', 'Data Extraction'],
+      link: 'https://github.com/R1shA3h/tweets_extraction_bot',
+      status: 'completed'
+    },
+    {
+      id: 'sitemap',
+      name: 'Dynamic Sitemap Generator',
+      period: 'Apr 2025',
+      description: 'Built a user-friendly interface for marketing team to manage URLs that automatically updates sitemap.xml and restarts Nginx server.',
+      technologies: ['Node.js', 'Nginx', 'XML', 'Shell Scripting'],
+      status: 'completed'
+    },
+    {
+      id: 'mcp',
+      name: 'MCP Integration Suite',
+      period: 'Apr 2025',
+      description: 'Developed a Model Context Protocol system linking WhatsApp, Zerodha, MongoDB, and GitHub for unified data access and automation workflows.',
+      technologies: ['API Integration', 'MongoDB', 'WhatsApp API', 'Zerodha API', 'GitHub API'],
       status: 'completed'
     },
     {
@@ -65,14 +98,7 @@ const ProjectTimeline = () => {
       period: 'Apr 2025',
       description: 'Developing a bot using Selenium to extract video transcripts via Eightify. Designing a system that filters channels, extracts trades, and calculates ROI.',
       technologies: ['Python', 'Selenium', 'Data Pipeline', 'ROI Analysis'],
-      status: 'ongoing'
-    },
-    {
-      id: 'twitter',
-      name: 'Twitter Data Extraction',
-      period: 'Apr 2025',
-      description: 'Building a tweet scraper to support bot logic. Working on optimal fetching strategies and dealing with API limits.',
-      technologies: ['Python', 'Twitter API', 'Data Extraction'],
+      link: 'https://github.com/R1shA3h/youtube-data-transcription-bot',
       status: 'ongoing'
     }
   ];
@@ -84,7 +110,7 @@ const ProjectTimeline = () => {
     d3.select(svgRef.current).selectAll('*').remove();
 
     const margin = { top: 40, right: 30, bottom: 40, left: 30 };
-    const width = 900 - margin.left - margin.right;
+    const width = 1100 - margin.left - margin.right;
     const height = 600 - margin.top - margin.bottom;
 
     // Create SVG
@@ -407,7 +433,7 @@ const ProjectTimeline = () => {
       </motion.div>
 
       <motion.div 
-        className="chart-container max-w-5xl mx-auto overflow-x-auto"
+        className="chart-container max-w-6xl w-full mx-auto overflow-x-auto px-4"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}

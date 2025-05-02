@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <main className="bg-gray-900 text-white">
       <Navbar />
-      
+
       <div id="hero">
         <HeroSection />
-      </div>
+        </div>
       
       <TimeAllocation />
       
@@ -29,6 +29,6 @@ export default function Home() {
       <FutureGoals />
       
       <Footer />
-    </main>
+      </main>
   );
 }

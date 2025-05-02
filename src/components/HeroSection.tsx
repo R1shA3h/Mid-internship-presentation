@@ -202,11 +202,11 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-1 bg-gradient-to-b from-black/20 via-black/50 to-black/75"></div>
       
       {/* Content overlay - Simplified Structure */}
-      <div className="relative z-10 text-center px-4 sm:px-6 max-w-full sm:max-w-5xl flex flex-col items-center"> 
+      <div className="relative z-10 text-center px-6 max-w-5xl flex flex-col items-center"> 
 
         {/* Large Quote */}
         <motion.blockquote
-          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold text-white mb-4 sm:mb-6 max-w-4xl mx-auto drop-shadow-lg leading-tight font-serif"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-white mb-6 max-w-4xl mx-auto drop-shadow-lg leading-tight font-serif"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.9 }}
@@ -216,7 +216,7 @@ const HeroSection = () => {
         
         {/* Designation */}
         <motion.p 
-          className="text-base sm:text-lg md:text-xl text-blue-300 mb-6 sm:mb-10 tracking-wider font-sans"
+          className="text-lg md:text-xl text-blue-300 mb-10 tracking-wider font-sans"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
@@ -231,7 +231,7 @@ const HeroSection = () => {
           transition={{ type: 'spring', stiffness: 100, damping: 15, delay: 0.8, duration: 0.8 }}
         >
           <button 
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 sm:py-3 px-6 sm:px-8 rounded-full transition duration-300 font-sans text-sm sm:text-lg shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 font-sans text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
             onClick={() => document.getElementById('time-allocation')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Explore My Journey
