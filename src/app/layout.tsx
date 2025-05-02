@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mid-Internship Journey @ Finosauras",
+  title: "Internship Journey @ Finosauras",
   description: "A visual journey through my first four months at Finosauras - projects, skills, and growth",
 };
 

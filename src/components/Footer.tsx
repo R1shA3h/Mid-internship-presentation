@@ -74,7 +74,7 @@ const Footer = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          <p>April 2025 • Mid-Internship Progress Report</p>
+          <p>April 2025 • Internship Progress Report</p>
           <p className="mt-2 max-w-3xl mx-auto italic">
             &quot;This internship has been more than just a learning experience — it&apos;s been a personal 
             journey of growth, confidence, and learning to fight through ambiguity. I come to work every day 

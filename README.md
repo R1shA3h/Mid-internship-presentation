@@ -1,4 +1,4 @@
-# Finosauras Mid-Internship Report
+# Finosauras Internship Report
 
 An interactive, data-driven visualization of my first four months at Finosauras, showcasing projects, skills growth, and future goals.
 
@@ -71,6 +71,6 @@ An interactive, data-driven visualization of my first four months at Finosauras,
 
 ## Credits
 
-- Created as a mid-internship progress report for Finosauras
+- Created as a internship progress report for Finosauras
 - Visual design inspired by modern interactive dashboards
 - Icons from various open-source libraries
