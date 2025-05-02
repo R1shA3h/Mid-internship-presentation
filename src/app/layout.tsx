@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Mid-Internship Journey @ Finosauras",
-  description: "A visual journey through my first three months at Finosauras - projects, skills, and growth",
+  description: "A visual journey through my first four months at Finosauras - projects, skills, and growth",
 };
 
 export default function RootLayout({

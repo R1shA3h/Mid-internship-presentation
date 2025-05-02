@@ -221,7 +221,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-          Software Engineering Intern @ Finosauras
+          Software Engineering Intern
         </motion.p>
         
         {/* Button */}
@@ -235,6 +235,12 @@ const HeroSection = () => {
             onClick={() => document.getElementById('time-allocation')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Explore My Journey
+          </button>
+          <button 
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 font-sans text-lg shadow-lg hover:shadow-xl transform hover:scale-105 ml-4"
+            onClick={() => window.open('https://www.finosauras.com', '_blank')}
+          >
+            Visit Finosauras
           </button>
         </motion.div>
       </div>

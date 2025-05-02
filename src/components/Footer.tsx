@@ -60,7 +60,7 @@ const Footer = () => {
             </h3>
             <p className="text-gray-400 max-w-md">
               This interactive report visualizes my growth and contributions during 
-              the first three months at Finosauras.
+              the first four months at Finosauras.
             </p>
           </div>
           

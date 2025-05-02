@@ -216,7 +216,7 @@ const TimeAllocation = () => {
       >
         <h2 className="text-4xl font-bold mb-4">My 500+ Hour Finosauras Sprint</h2>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-          A breakdown of how I invested my time during the first three months, balancing new development, maintenance, learning, and team collaboration.
+          A breakdown of how I invested my time during the first four months, balancing new development, maintenance, learning, and team collaboration.
         </p>
       </motion.div>
 
